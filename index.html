@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="header">
+        
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">S<font color="white">arita.</font></a>
+                <!-- <img src="personal-portfolio-img/images/log1.jpg" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <img src="personal-portfolio-img/images/rightside2.jpeg"  class="img">
+            
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Sarita</span><br> Maurya from Lucknow</h1>
+            </div>
+            
+        </div>
+        </div>
+        <!-- about -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="personal-portfolio-img/images/user1.jpg">
+                        
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                       <p>Hi, I'm Sarita Maurya from Lucknow U.P. . I'm front end web developer. I have  one Year experience. I have #200daysofcoder experience. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <img src="personal-portfolio-img/images/hcj.png" height="100px" width="100px">
+                        <img src="personal-portfolio-img/images/python.png" height="100px">
+                        <img src="personal-portfolio-img/images/java.png" height="100px" width="100px">
+                        <img src="personal-portfolio-img/images/clang.png" height="100px" width="100px">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div> 
+                   
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Assistent Programmer at SRMCEM Lucknow</li>
+                            <li><span>2022 - 2023</span><br>Lab Instractor at Excel Net Paradise Computer Barabanki</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Diploma in INFORMATION TECHNOLOGY from GGP Ayodhya</li>
+                            <li><span>2019</span><br>Intermediate from Gonda </li>
+                            <li><span>2017</span><br>High School from Gonda</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                
+
+
+            </div>
+        </div>
+<!-- -------------services  -------------------->
+   
+       <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+    <div>
+        <i class="fas fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, mollitia, minus quos libero rerum doloribus eligendi magnam veniam architecto alias maxime vero! Blanditiis optio corporis minima rerum unde cum aliquid.</p>
+        <a href="#">Learn More</a>
+    </div>
+    <div>
+        <i class="fas fa-crop-alt"></i>
+        <h2>UI/UX Design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, mollitia, minus quos libero rerum doloribus eligendi magnam veniam architecto alias maxime vero! Blanditiis optio corporis minima rerum unde cum aliquid.</p>
+        <a href="#">Learn More</a>
+    </div>
+    <div>
+        <i class="fab fa-app-store"></i>
+        <h2>App Design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, mollitia, minus quos libero rerum doloribus eligendi magnam veniam architecto alias maxime vero! Blanditiis optio corporis minima rerum unde cum aliquid.</p>
+        <a href="#">Learn More</a>
+    </div>
+            </div>
+
+        </div>
+       </div>
+<!-- ----------portfolio---------- -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="personal-portfolio-img/images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="personal-portfolio-img/images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="personal-portfolio-img/images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping  App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#"  class="btn">See more</a>
+        </div>
+      </div>
+
+<!-- ----contact form--- -->
+              <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fas fa-paper-plane"></i>
+                                contact@example.com</p>
+                            <p><i class="fas fa-phone-square-alt"></i>  01234566789</p>
+                            <div class="social-icons">
+                                     <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                                     <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                                     <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+
+                            </div>
+                            <a href="personal-portfolio-img/images/Sarita resume.pdf" download class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form>
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>copyright @ Sarita. Made <i class="fas fa-heart"></i> by Self</p>
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
